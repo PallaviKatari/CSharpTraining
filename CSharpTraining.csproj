@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.Polymorphism</StartupObject>
+    <StartupObject>CSharpTraining.Interfaces</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="Basics.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="Interfaces.cs" />
     <Compile Include="OOPS.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />
