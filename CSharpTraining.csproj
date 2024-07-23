@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.Collections</StartupObject>
+    <StartupObject>CSharpTraining.Enumeration</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="Arrays.cs" />
     <Compile Include="Basics.cs" />
     <Compile Include="Collections.cs" />
+    <Compile Include="Enumeration.cs" />
     <Compile Include="Generics.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interfaces.cs" />
