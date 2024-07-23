@@ -4,8 +4,9 @@ using System;
 
 namespace CSharpTraining
 {
-    internal class Program
+    public class Program
     {
+        public int a;
         static void Main(string[] args)
         {    
             Program1 program1 = new Program1();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpTraining
 {
-    internal class Program1
+    public class Program1
     {
         public void Display()
         {

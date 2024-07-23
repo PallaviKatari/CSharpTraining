@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.Interfaces</StartupObject>
+    <StartupObject>CSharpTraining.Collections</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,8 +49,11 @@
     <Compile Include="Abstraction.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="Basics.cs" />
+    <Compile Include="Collections.cs" />
+    <Compile Include="Generics.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interfaces.cs" />
+    <Compile Include="Nullables.cs" />
     <Compile Include="OOPS.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />
