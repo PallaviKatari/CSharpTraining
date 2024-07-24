@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.Enumeration</StartupObject>
+    <StartupObject>CSharpTraining.ProgramEvent</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,8 @@
     <Compile Include="Basics.cs" />
     <Compile Include="Collections.cs" />
     <Compile Include="Enumeration.cs" />
+    <Compile Include="EventScheduler.cs" />
+    <Compile Include="Exceptions.cs" />
     <Compile Include="Generics.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interfaces.cs" />
@@ -61,10 +63,13 @@
     <Compile Include="Program1.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Theory\csharp_tutorial.pdf" />
     <None Include="Theory\Introduction to .NET Framework &amp; .NET.pdf" />
+    <None Include="Theory\RegularExpressionC#.docx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
