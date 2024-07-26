@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.ProgramEvent</StartupObject>
+    <StartupObject>CSharpTraining.classStruct</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,12 +52,14 @@
     <Compile Include="Collections.cs" />
     <Compile Include="Enumeration.cs" />
     <Compile Include="EventScheduler.cs" />
+    <Compile Include="EventsTask.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="Generics.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interfaces.cs" />
     <Compile Include="Nullables.cs" />
     <Compile Include="OOPS.cs" />
+    <Compile Include="PassByValueRef.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program1.cs" />

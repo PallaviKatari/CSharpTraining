@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace CSharpTraining
 {
     /// <summary>
-    /// STRUCTURES - Small applications,no inheritance(no protected access specifier)
-    /// Classes - Larger applications - All OOPS concepts
+    /// Arrays and structures
+    /// STRUCTURES - Small applications,no inheritance(no protected access specifier) - Value type - Stack
+    /// Classes - Larger applications - All OOPS concepts - Reference type - Heap
     /// </summary>
     struct TraineeDetails
     {
